@@ -1,0 +1,59 @@
+>|AA|
+そろそろ新しいバージョン管理システムをつかうお。
+||<
+
+>|AA|
+最近は分散が流行らしいお。
+SVN は小学生まで、と。
+||<
+
+ぎっとたんのがぞう
+
+>|AA|
+ぎっとたんかわゆす！！！
+git というのを使ってみるお。
+||<
+
+>|AA|
+とりあえずチュートリアルやるお。
+gitcore-tutorial これは低レベルのお話なので簡単そうだお。
+||<
+
+http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
+
+>|AA|
+英語はよくわかんないので、サンプルコードだけよんでいけばおｋなんだお。
+||<
+
+>||
+$ mkdir git-tutorial
+$ cd git-tutorial
+$ git init
+||<
+>||
+Initialized empty Git repository in .git/
+||<
+
+>|AA|
+なんか .git ディレクトリができたお。
+その中にある 、HEAD と呼ばれるファイルは refs/heads/master のシンボリックリンクみたいなものらしいお。
+今の時点ではまだないみたいお。
+||<
+>|AA|
+objects ってよばれるディレクトリはデータ格納のディレクトリらしいお。
+refs ディレクトリはオブジェクトへの参照らしいお。refs の中には heads/tags があって、heads にはブランチのリファレンスが、
+tags はバージョン管理の参照に使われるみたいだお。
+||<
+
+>|AA|
+
+||<
+
+>|AA|
+||<
+
+>|AA|
+||<
+
+>|AA|
+||<
