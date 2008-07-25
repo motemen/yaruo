@@ -1,12 +1,12 @@
 http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
 
 >|AA|
-gitcore-tutorial ��������٥�Τ��äʤΤǴ�ñ����������
-���٥�ʥġ��������Ǥ�����������
+gitcore-tutorial これは低レベルのお話なので簡単そうだお。
+低レベルなツールを理解できそうだお。
 ||<
 
 >|AA|
-�Ѹ�Ϥ褯�狼��ʤ��Τǡ�����ץ륳���ɤ������Ǥ����Ф���ʤ������
+英語はよくわかんないので、サンプルコードだけよんでいけばおｋなんだお。
 ||<
 
 
