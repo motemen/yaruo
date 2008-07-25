@@ -107,7 +107,7 @@ http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
 　　　　　　　　　N:.ﾊ:.:.:lｨfｱﾄ/　ﾚ　ｨ=ﾄ | /| ∧j
 　　　　　　　　　　ヽﾑ:.} ii;_j　　　　ii;ﾘ ﾙ iﾚヽ　　　……大丈夫
 　 　 　 　 　 　 　 　 `ﾍ:ゝ　　　_ 　 　 小/　　　　　私が和訳する
-　 　 　 　 　 　 　 　 　 ヾ:{＞､ _　ｨ＜}/|/　　　　　　　きっとわかる
+　 　 　 　 　 　 　 　 　 ヾ:{＞､ _　ｨ＜}/|/　　　　　　　きっとわかる
 　　　　　　　　　　 _, ｨr'´ヽ｛ __＿`}　ヽ､_
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
