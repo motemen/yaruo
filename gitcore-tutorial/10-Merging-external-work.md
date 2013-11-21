@@ -55,4 +55,3 @@ $ git fetch <remote-repository>
 ```
 
 
-[[やる夫で学ぶ gitcore-tutorial/How does the merge work?]]

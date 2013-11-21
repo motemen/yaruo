@@ -198,4 +198,3 @@ Date:   Sat Jul 26 13:02:42 2008 +0900
 
 <!-- --root オプション、git-whatchanged -p -->
 
-[[やる夫で学ぶ gitcore-tutorial/Tagging a version]]

@@ -237,4 +237,3 @@ $ git checkout
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Creating a new branch]]

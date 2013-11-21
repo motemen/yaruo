@@ -541,4 +541,3 @@ $ git show-branch master mybranch
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Merging external work]]

@@ -336,4 +336,3 @@ index 557db03..263414f 100644
 
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Committing git state]]

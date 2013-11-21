@@ -131,4 +131,3 @@ http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
 　|　ヽ〆　　　　　　　　|´　|
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Creating a git repository]]

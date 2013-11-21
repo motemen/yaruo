@@ -159,4 +159,3 @@ tag
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Copying repositories]]

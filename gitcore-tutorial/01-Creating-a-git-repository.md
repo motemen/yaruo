@@ -145,4 +145,3 @@ Initialized empty Git repository in .git/
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 
 ```
-[[やる夫で学ぶ gitcore-tutorial/Populating a git repository]]

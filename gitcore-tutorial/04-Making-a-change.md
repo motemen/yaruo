@@ -322,4 +322,3 @@ Created commit bb83222: ⊂二二二（ ＾ω＾）二⊃
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Inspecting changes]]

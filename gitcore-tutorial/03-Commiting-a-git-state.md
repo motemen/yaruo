@@ -269,4 +269,3 @@ $ git update-ref HEAD $commit|
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Making a change]]

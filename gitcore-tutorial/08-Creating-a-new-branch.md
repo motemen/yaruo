@@ -172,4 +172,3 @@ $ git branch
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 ```
 
-[[やる夫で学ぶ gitcore-tutorial/Merging two branches]]
