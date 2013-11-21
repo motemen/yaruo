@@ -1,4 +1,4 @@
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -41,12 +41,12 @@
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git checkout -b mybranch
 Switched to a new branch "mybranch"
-||<
->|aa|
+```
+```aa
 　 　　　　＿＿＿_
 　 　　　／⌒　　⌒＼
 　　　／（ ●） 　（●）＼
@@ -105,12 +105,12 @@ Switched to a new branch "mybranch"
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git checkout master
 Switched to branch "master"
-||<
->|aa|
+```
+```aa
 
 　　 　 ,　'´￣￣｀ ｰ-､　　　　　
 　　 ／　　 〃" ｀ヽ､　＼　　　　
@@ -122,13 +122,13 @@ Switched to branch "master"
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
->||
+```
+```
 $ git branch
 * master
   mybranch
-||<
->|aa|
+```
+```aa
 　　　　　　　　　　　　 (ヽ三/)　））
 　　　　　　　　　＿＿　 ( i)))
 　　　　 　　　／⌒　　⌒＼　＼
@@ -170,6 +170,6 @@ $ git branch
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
+```
 
 [[やる夫で学ぶ gitcore-tutorial/Merging two branches]]

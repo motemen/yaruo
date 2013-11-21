@@ -1,4 +1,4 @@
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -36,9 +36,9 @@
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　デフォルトでは tree とワーキングツリーとの差分
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
+```
 
->||
+```
 $ git diff-index -p HEAD
 diff --git a/hello b/hello
 index 557db03..263414f 100644
@@ -47,9 +47,9 @@ index 557db03..263414f 100644
 @@ -1 +1,2 @@
  Hello World
 +It's a new day for git
-||<
+```
 
->|aa|
+```aa
 　 　 　　　＿＿＿_
 　 　　　／⌒　　⌒＼
 　　　／（ ●） 　（●）＼
@@ -107,12 +107,12 @@ index 557db03..263414f 100644
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git diff-index --cached -p HEAD
-||<
+```
 
->|aa|
+```aa
 　　 　　 　＿＿＿_
 　　　　 ／ ＼　　／＼　ｷﾘｯ
 .　　　／　（ー） 　（ー）＼　　何の差分も出力されないのは
@@ -146,11 +146,11 @@ $ git diff-index --cached -p HEAD
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 git update-index hello
-||<
->|aa|
+```
+```aa
 　　 　 ,　'´￣￣｀ ｰ-､　　　　　
 　　 ／　　 〃" ｀ヽ､　＼　　　　
 　 /　/　 ﾊ/　　　　 ＼ﾊﾍ　　　
@@ -177,8 +177,8 @@ git update-index hello
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git diff-files -p
 $ git diff-index -p HEAD
 diff --git a/hello b/hello
@@ -197,8 +197,8 @@ index 557db03..263414f 100644
  Hello World
 +It's a new day for git
 
-||<
->|aa|
+```
+```aa
 　 　 　　　＿＿＿_
 　 　　　／⌒　　⌒＼
 　　　／（ ●） 　（●）＼　　インデックスとワーキングツリーの内容が一緒だから
@@ -241,8 +241,8 @@ index 557db03..263414f 100644
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
->||
+```
+```
 $ git commit
 
 # Please enter the commit message for your changes.
@@ -253,8 +253,8 @@ $ git commit
 #
 #>      modified:   hello
 #
-||<
->|aa|
+```
+```aa
 　 　 　　　＿＿＿_
 　 　　　／ノ 　 ヽ､_＼　　
 　　　／（ ○）}liil{（○）＼　　vi が起動したお！保存も終了もできないお！！
@@ -273,14 +273,14 @@ $ git commit
 　　　　　　＼ /:::::|　l＞,､ __,　イァ/　 /│
 .　　　　　 　 /:::::/|　|　ヾ:::|三/::{ﾍ､__∧ |
 　　　　　　　｀ヽ< |　|　　ヾ∨:::/ヾ:::彡'　|
-||<
->||
+```
+```
 ".git/COMMIT_EDITMSG" 13L, 353C 書込み
 
 Created commit bb83222: ⊂二二二（ ＾ω＾）二⊃
  1 files changed, 1 insertions(+), 0 deletions(-)
-||<
->|aa|
+```
+```aa
 　　　　　　　　　＿＿＿
 　　　　　　　／ ⌒　　⌒＼
 　　　　　 ／　（⌒）　 （⌒） ＼　　　
@@ -320,6 +320,6 @@ Created commit bb83222: ⊂二二二（ ＾ω＾）二⊃
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
+```
 
 [[やる夫で学ぶ gitcore-tutorial/Inspecting changes]]

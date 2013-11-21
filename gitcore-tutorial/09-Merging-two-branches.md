@@ -1,4 +1,4 @@
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -12,16 +12,16 @@
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git checkout mybranch
 Switched to branch "mybranch"
 $ echo "Work, work, work" >>hello
 $ git commit -m "Some work." -i hello
 Created commit 171aa01: Some work.
  1 files changed, 1 insertions(+), 0 deletions(-)
-||<
->|aa|
+```
+```aa
 　 　 　　　＿＿＿_
 　 　　　／ノ 　 ヽ､_＼
 　　　／（ ○）}liil{（○）＼　　
@@ -56,12 +56,12 @@ Created commit 171aa01: Some work.
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git checkout master
 Switched to branch "master"
-||<
->|aa|
+```
+```aa
 　 　　　　 　ﾉ Ｌ＿＿＿_
 　　　　　　　⌒　＼　／ ＼
 　　　　　　／　（○）　（○）＼　　hello の中身が元に戻ってしまったお！
@@ -90,15 +90,15 @@ Switched to branch "master"
 　 |　 　 　 （__人__）　　　　|　
 　 ＼　　 　 ｀ ⌒´ 　 　 ／
 
-||<
->||
+```
+```
 $ echo "Play, play, play" >>hello
 $ echo "Lots of fun" >>example
 $ git commit -m "Some fun." -i hello example
 Created commit cf8002d: Some fun.
  2 files changed, 2 insertions(+), 0 deletions(-)
-||<
->|aa|
+```
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -125,8 +125,8 @@ Created commit cf8002d: Some fun.
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
->||
+```
+```
 $ git log --graph --all
 * commit cf8002d81efe72e74ddaa6308984b41586a70cf3
 | Author: yaruo <yaruo@example.com>
@@ -151,8 +151,8 @@ $ git log --graph --all
   Date:   Sat Jul 26 13:02:42 2008 +0900
 
       Initial commit
-||<
->|aa|
+```
+```aa
 　　　　　　＿＿＿
 　　　　／ ⌒　　⌒＼
 　　 ／　（⌒）　 （⌒） ＼　　　
@@ -179,14 +179,14 @@ $ git log --graph --all
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git merge -m "Merge work in mybranch" mybranch
 Auto-merged hello
 CONFLICT (content): Merge conflict in hello
 Automatic merge failed; fix conflicts and then commit the result.
-||<
->|aa|
+```
+```aa
 　 　 　　　＿＿＿_
 　 　　　／ノ 　 ヽ､_＼
 　　　／（ ○）}liil{（○）＼　　
@@ -217,15 +217,15 @@ Automatic merge failed; fix conflicts and then commit the result.
 　 ／　　　 （__人__）　　　＼　有希ちゃんはやる夫に恨みでもあるのかお！
 　 |　　　ヽ　|!!il|!|!l|　/　　　|　…とりあえず手で修正すればいいお？
 　 ＼　　　　|ｪｪｪｪ| 　 　 ／
-||<
->||
+```
+```
 $ cat hello
 Hello World
 It's a new day for git
 Play, play, play
 Work, work, work
-||<
->|aa|
+```
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -239,8 +239,8 @@ Work, work, work
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
->||
+```
+```
 $ git commit -i hello
 Merge work in mybranch
 
@@ -264,8 +264,8 @@ Conflicts:
 #
 #       modified:   hello
 #
-||<
->|aa|
+```
+```aa
 　　　　　 　　　＿＿＿_
 　　　　 　／::::::─三三─＼
 　　　　／:::::::: （ ○）三（○）＼　　　　なんかエディタの中身がいつもと違うお！
@@ -309,8 +309,8 @@ Conflicts:
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
->||
+```
+```
 $ git log --graph
 *   commit ff47b11b42ebfc9095d8c212dd5a0b1c27518535
 |\  Merge: cf8002d... 171aa01...
@@ -348,8 +348,8 @@ $ git log --graph
   Date:   Sat Jul 26 13:02:42 2008 +0900
 
       Initial commit
-||<
->|aa|
+```
+```aa
 　 　　　＿＿＿_　　
 　　　／　　 　 　＼
 　 ／　　─　 　 ─＼　　なるほど…
@@ -385,8 +385,8 @@ $ git log --graph
 　　　 　ｒ 　 　 ヽ、__)一(_丿
 　　　 　ヽ、___　　　ヽ　ヽ　
 　　　　 と_＿＿_＿ノ＿ノ
-||<
->||
+```
+```
 $ git show-branch --topo-order --more=1 master mybranch
 * [master] Merge work in mybranch
  ! [mybranch] Some work.
@@ -394,8 +394,8 @@ $ git show-branch --topo-order --more=1 master mybranch
 -  [master] Merge work in mybranch
 *+ [mybranch] Some work.
 *  [master^] Some fun.
-||<
->|aa|
+```
+```aa
 　　 　 ,　'´￣￣｀ ｰ-､　　　　　
 　　 ／　　 〃" ｀ヽ､　＼　　　　
 　 /　/　 ﾊ/　　　　 ＼ﾊﾍ　　　最初の2行は注目しているブランチだよ！
@@ -464,8 +464,8 @@ $ git show-branch --topo-order --more=1 master mybranch
 　 ／ 　oﾟ⌒　　　⌒ﾟo　 ＼ 　　　　またコンフリクトしないか心配だお…
 　 |　　　　 （__人__）　　　　|　　　　
 　 ＼　　 　 ｀ ⌒´ 　 　 ／ 
-||<
->||
+```
+```
 $ git checkout mybranch
 Switched to branch "mybranch"
 $ git merge -m "Merge upstream changes." master
@@ -474,8 +474,8 @@ Fast forward (no commit created; -m option ignored)
  example |    1 +
  hello   |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-||<
->|aa|
+```
+```aa
 　 　　　　＿＿＿_
 　 　　　／⌒　　⌒＼
 　　　／（ ●） 　（●）＼
@@ -520,15 +520,15 @@ Fast forward (no commit created; -m option ignored)
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
->||
+```
+```
 $ git show-branch master mybranch
 ! [master] Merge work in mybranch
  * [mybranch] Merge work in mybranch
 --
 -- [master] Merge work in mybranch
-||<
->|aa|
+```
+```aa
 　　 　 ,　'´￣￣｀ ｰ-､　　　　　
 　　 ／　　 〃" ｀ヽ､　＼　　　　
 　 /　/　 ﾊ/　　　　 ＼ﾊﾍ　　　
@@ -539,6 +539,6 @@ $ git show-branch master mybranch
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
+```
 
 [[やる夫で学ぶ gitcore-tutorial/Merging external work]]

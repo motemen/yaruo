@@ -1,4 +1,4 @@
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -12,12 +12,12 @@
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
+```
 
 + tree オブジェクトを作成し、
 + その tree を commit オブジェクトとしてコミットする
 
->|aa|
+```aa
 　　 　　 ＿__　　　　━┓
 　　　 ／　―＼ 　　┏┛
 　　／ノ　　(●)＼　 ・
@@ -65,14 +65,14 @@
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
+```
 
->||
+```
 $ git write-tree
 8988da15d077d4829fc51d8544c097def6644dbb
-||<
+```
 
->|aa|
+```aa
 
 　　 　 ,　'´￣￣｀ ｰ-､　　　　　
 　　 ／　　 〃" ｀ヽ､　＼　　　　
@@ -93,14 +93,14 @@ $ git write-tree
 　　|　　 　　　|r┬-|　　　　|　　git-cat-file してみるお！
 　　 ＼　　　　 `ー'´　　 ／　　
 　　ノ　　　　　　　　　　 　＼
-||<
+```
 
->||
+```
 $ git cat-file -t 8988da
 tree
-||<
+```
 
->|aa|
+```aa
 　　　　　　　　　　　　 (ヽ三/)　））
 　　　　　　　　　＿＿　 ( i)))
 　　　　 　　　／⌒　　⌒＼　＼
@@ -111,14 +111,14 @@ tree
 　　　 | |　|　|　 __ヽ、　　　/
 　　　 ﾚレ'､ﾉ‐´　　￣〉　　|
 　　　　｀ｰ---‐一'￣ 
-||<
+```
 
->||
+```
 $ git cat-file tree 8988da
 100644 example�Lt����2�k��R���b100644 helloU}�=��jJ��:�"[�8
-||<
+```
 
->|aa|
+```aa
 　 　 　　　＿＿＿_
 　 　　　／ノ 　 ヽ､_＼
 　　　／（ ○）}liil{（○）＼
@@ -162,15 +162,15 @@ $ git cat-file tree 8988da
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
+```
 
->||
+```
 $ tree=$(git write-tree)
 $ commit=$(echo 'Initial commit' | git commit-tree $tree)
 $ git update-ref HEAD $commit|
-||<
+```
 
->|aa|
+```aa
 　　 　　 ＿__　　　　━┓
 　　　 ／　―＼ 　　┏┛
 　　／ノ　　(●)＼　 ・
@@ -267,6 +267,6 @@ $ git update-ref HEAD $commit|
 　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
-||<
+```
 
 [[やる夫で学ぶ gitcore-tutorial/Making a change]]

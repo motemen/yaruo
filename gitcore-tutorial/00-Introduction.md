@@ -1,4 +1,4 @@
->|AA|
+```aa
 　 　　　＿＿＿_
 　　　／　　 　 　＼ （ ;;;;(
 　 ／　　＿ノ　 ヽ__＼) ;;;;)
@@ -29,14 +29,14 @@
 　|　　　　ｌ 　 　 　 　 　 　　　　　| |　　　　　　　　　　|
 　ヽ　　　 -一ー_~､⌒)^),-､　　　| |_＿＿＿＿＿＿__|
 　　ヽ ＿＿＿＿,ノγ⌒ヽ)ニニ-￣　　　| |　　| 
-||<
+```
 
 
 
 <img src="http://f.hatena.ne.jp/images/fotolife/s/secondlife/20080501/20080501174529.png">
 
 
->|AA|
+```aa
 　　　　　　＿＿＿
 　　　　／ ⌒　　⌒＼
 　　 ／　（⌒）　 （⌒） ＼　　　
@@ -68,14 +68,14 @@
 　|　　　　ｌ 　 　 　 　 　 　　　　　| |　　　　　　　　　　|
 　ヽ　　　 -一ー_~､⌒)^),-､　　　| |_＿＿＿＿＿＿__|
 　　ヽ ＿＿＿＿,ノγ⌒ヽ)ニニ-￣　　　| |　　| 
-||<
+```
 
 
 
 http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
 
 
->|AA|
+```aa
 　 　　　　　＿＿＿_
 　 　　　／_ノ 　ヽ､_＼
 　　　oﾟ(（●）) (（●）)ﾟo　　　　　　　英語ｗｗｗ
@@ -129,6 +129,6 @@ http://www.kernel.org/pub/software/scm/git/docs/gitcore-tutorial.html
 　 / rｰ'ゝ　　　　　　　〆ヽ
 　/,ﾉヾ　,>　　　　　　ヾ_ノ,|
 　|　ヽ〆　　　　　　　　|´　|
-||<
+```
 
 [[やる夫で学ぶ gitcore-tutorial/Creating a git repository]]

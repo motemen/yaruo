@@ -1,4 +1,4 @@
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -21,13 +21,13 @@
 　　|　　 　　　|r┬-|　　　　|　　
 　　 ＼　　　　 `ー'´　　 ／　　
 　　ノ　　　　　　　　　　 　＼
-||<
+```
 
->||
+```
 $ mkdir git-tutorial
-||<
+```
 
->|aa|
+```aa
 　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
 　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
 　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　',　:l　　 ヾ`ｰ
@@ -41,15 +41,15 @@ $ mkdir git-tutorial
 　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ
 　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
 　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
-||<
+```
 
->||
+```
 $ cd git-tutorial
 $ git init
 Initialized empty Git repository in .git/
-||<
+```
 
->|aa|
+```aa
 　 　 　　　＿＿＿_
 　 　　　／⌒　　⌒＼
 　　　／（ ●） 　（●）＼
@@ -144,5 +144,5 @@ Initialized empty Git repository in .git/
 　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|',:::::ﾊ　　
 　 |　ヾ_:::ッﾘ :::∨:／　|　| >'''´
 
-||<
+```
 [[やる夫で学ぶ gitcore-tutorial/Populating a git repository]]
