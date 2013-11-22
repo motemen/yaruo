@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><meta charset="utf-8" /><title>Merging external work - やる夫で学ぶ gitcore-tutorial</title><link href="/yaruo/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><script charset="utf-8" src="http://font.textar.tv/webfont.js"></script></head><body><h1>やる夫で学ぶ gitcore-tutorial</h1><div id="content"><h2>Merging external work</h2><pre><code class="aa">　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
+　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
+　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　&#39;,　:l　　 ヾ`ｰ
+　 　 　 　 　 　 /!:.:.|:.: l/　 〃 /　j　}　:|　 　 ﾊ     …マージは
+　　　　　　　　/ｲ:.:.i|:.:.jL∠/_/ | /l.ﾑ_/|　l 　ｌ }　　自分のブランチとよりも他人のブランチとすることの方が多いはず
+　　　　　　　　　N:.ﾊ:.:.:lｨfｱﾄ/　ﾚ　ｨ=ﾄ | /| ∧j　　 　　 git では簡単にできる
+　　　　　　　　　　ヽﾑ:.} ii;_j　　　　ii;ﾘ ﾙ iﾚヽ.　　　「一時的なタグにリモートリポジトリを保存」して
+　 　 　 　 　 　 　 　 `ﾍ:ゝ　　　_ 　 　 小/　　　　　git-merge するだけ…
+　 　 　 　 　 　 　 　 　 ヾ:{＞､ _　ｨ＜}/|/　　　　　
+　　　　　　　　　　 _, ｨr&#39;´ヽ｛ __＿`}　ヽ､_　　　
+　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
+　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
+　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
+
+
+　 　　　　＿＿＿_
+　 　　　／⌒　　⌒＼
+　　　／（ ●） 　（●）＼
+　 ／::::::⌒（__人__）⌒::::: ＼　やる夫はネットひきこもりだから関係ないお！
+　 |　　　　　|r┬-|　　　　　|　　
+　 ＼ 　　 　 `ー&#39;´ 　 　 ／
+
+
+
+　　　　　　　　　　　／.:.:.　　　　　　　　 ＼
+　 　 　 　 　 　 　 /:,:.:.:　 ／　　　ヽ　　　　＼
+　　　　　　　　　 /.:.l:.:.:/:/　　　:/ 　&#39;,　:l　　 ヾ`ｰ
+　 　 　 　 　 　 /!:.:.|:.: l/　 〃 /　j　}　:|　 　 ﾊ     
+　　　　　　　　/ｲ:.:.i|:.:.jL∠/_/ | /l.ﾑ_/|　l 　ｌ }　　
+　　　　　　　　　N:.ﾊ:.:.:lｨfｱﾄ/　ﾚ　ｨ=ﾄ | /| ∧j　　 　　 リモートリポジトリからデータを取得するには git-fetch を使う
+　　　　　　　　　　ヽﾑ:.} ii;_j　　　　ii;ﾘ ﾙ iﾚヽ.　　　
+　 　 　 　 　 　 　 　 `ﾍ:ゝ　　　_ 　 　 小/　　　　　
+　 　 　 　 　 　 　 　 　 ヾ:{＞､ _　ｨ＜}/|/　　　　　
+　　　　　　　　　　 _, ｨr&#39;´ヽ｛ __＿`}　ヽ､_　　　
+　　　　　　　　　／| l:|　　　| =＝=|　　 |:lﾞヽ　　　
+　　　　　 　 　 /　 | l:ｌ　　　l 　 　 l　　 l::ｌ　l
+　　 　 　 　 　 l　　ヽﾊ　 　 l　 　 l　　//　 |
+</code></pre>
+
+<pre><code>$ git fetch &lt;remote-repository&gt;
+</code></pre>
+
+<pre><code class="aa">　　 　 ,　&#39;´￣￣｀ ｰ-､　　　　　
+　　 ／　　 〃&quot; ｀ヽ､　＼　　　　
+　 /　/　 ﾊ/　　　　 ＼ﾊﾍ　　　
+　 |i │ ｌ |ﾘノ　　　 ｀ヽ}_}ハ.　　
+　 |i　|　从 ● 　 　 ●ｌ小N　　　　飽きてきたよ！
+　 |i （|　⊂⊃ ､_,､_,　⊂lｉ|ノ　　 　
+　 | i⌒ヽ j　　（_.ノ 　　ﾉi|__／⌒)　
+　 | ヽ 　ヽx＞､ __,　イｌ　|::::ヽ／.　 
+　 |　∧__,ﾍ}::ﾍ三|:::::/ｌ|　|&#39;,:::::ﾊ　　
+　 |　ヾ_:::ッﾘ :::∨:／　|　| &gt;&#39;&#39;&#39;´
+</code></pre>
+</div><script>for (var aas = document.querySelectorAll('.aa'), i = 0, aa = aas[i]; aa = aas[i++]; ) aa.className = 'textar-aa'; </script></body></html>

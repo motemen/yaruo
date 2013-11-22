@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 2% 15%;
+}
+
+.textar-aa {
+  white-space: pre !important;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
