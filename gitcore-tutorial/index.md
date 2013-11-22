@@ -10,3 +10,5 @@
 0. [Merging two branches](09-Merging-two-branches.html)
 0. [Merging external work](10-Merging-external-work.html)
 0. TBD
+
+<address>AA の表示に、[Textar Font - アスキーアート対応ウェブフォント](http://font.textar.tv/) を利用しています。</address>
